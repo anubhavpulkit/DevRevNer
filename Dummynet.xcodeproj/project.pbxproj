@@ -13,6 +13,7 @@
 		E647E1A62B95D3E600B99C11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E647E1A42B95D3E600B99C11 /* Main.storyboard */; };
 		E647E1A82B95D3E800B99C11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E647E1A72B95D3E800B99C11 /* Assets.xcassets */; };
 		E647E1AB2B95D3E800B99C11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E647E1A92B95D3E800B99C11 /* LaunchScreen.storyboard */; };
+		E647E1B32B95D3F800B99C11 /* NextGen.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = E647E1B22B95D3F800B99C11 /* NextGen.xcframework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		E647E1A72B95D3E800B99C11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E647E1AA2B95D3E800B99C11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E647E1AC2B95D3E800B99C11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E647E1B22B95D3F800B99C11 /* NextGen.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = NextGen.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E647E1B32B95D3F800B99C11 /* NextGen.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +43,7 @@
 		E647E1922B95D3E600B99C11 = {
 			isa = PBXGroup;
 			children = (
+				E647E1B22B95D3F800B99C11 /* NextGen.xcframework */,
 				E647E19D2B95D3E600B99C11 /* Dummynet */,
 				E647E19C2B95D3E600B99C11 /* Products */,
 			);
