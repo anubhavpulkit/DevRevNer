@@ -1,0 +1,627 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NextGen",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "NextGen"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "NextGen"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MovieError",
+        "printedName": "MovieError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "apiError",
+            "printedName": "apiError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NextGen.MovieError.Type) -> NextGen.MovieError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MovieError",
+                    "printedName": "NextGen.MovieError",
+                    "usr": "s:7NextGen10MovieErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NextGen.MovieError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MovieError",
+                        "printedName": "NextGen.MovieError",
+                        "usr": "s:7NextGen10MovieErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7NextGen10MovieErrorO03apiD0yA2CmF",
+            "mangledName": "$s7NextGen10MovieErrorO03apiD0yA2CmF",
+            "moduleName": "NextGen"
+          },
+          {
+            "kind": "Var",
+            "name": "invalidEndpoint",
+            "printedName": "invalidEndpoint",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NextGen.MovieError.Type) -> NextGen.MovieError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MovieError",
+                    "printedName": "NextGen.MovieError",
+                    "usr": "s:7NextGen10MovieErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NextGen.MovieError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MovieError",
+                        "printedName": "NextGen.MovieError",
+                        "usr": "s:7NextGen10MovieErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7NextGen10MovieErrorO15invalidEndpointyA2CmF",
+            "mangledName": "$s7NextGen10MovieErrorO15invalidEndpointyA2CmF",
+            "moduleName": "NextGen"
+          },
+          {
+            "kind": "Var",
+            "name": "invalidResponse",
+            "printedName": "invalidResponse",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NextGen.MovieError.Type) -> NextGen.MovieError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MovieError",
+                    "printedName": "NextGen.MovieError",
+                    "usr": "s:7NextGen10MovieErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NextGen.MovieError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MovieError",
+                        "printedName": "NextGen.MovieError",
+                        "usr": "s:7NextGen10MovieErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7NextGen10MovieErrorO15invalidResponseyA2CmF",
+            "mangledName": "$s7NextGen10MovieErrorO15invalidResponseyA2CmF",
+            "moduleName": "NextGen"
+          },
+          {
+            "kind": "Var",
+            "name": "noData",
+            "printedName": "noData",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NextGen.MovieError.Type) -> NextGen.MovieError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MovieError",
+                    "printedName": "NextGen.MovieError",
+                    "usr": "s:7NextGen10MovieErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NextGen.MovieError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MovieError",
+                        "printedName": "NextGen.MovieError",
+                        "usr": "s:7NextGen10MovieErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7NextGen10MovieErrorO6noDatayA2CmF",
+            "mangledName": "$s7NextGen10MovieErrorO6noDatayA2CmF",
+            "moduleName": "NextGen"
+          },
+          {
+            "kind": "Var",
+            "name": "serializationError",
+            "printedName": "serializationError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NextGen.MovieError.Type) -> NextGen.MovieError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MovieError",
+                    "printedName": "NextGen.MovieError",
+                    "usr": "s:7NextGen10MovieErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NextGen.MovieError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MovieError",
+                        "printedName": "NextGen.MovieError",
+                        "usr": "s:7NextGen10MovieErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7NextGen10MovieErrorO013serializationD0yA2CmF",
+            "mangledName": "$s7NextGen10MovieErrorO013serializationD0yA2CmF",
+            "moduleName": "NextGen"
+          },
+          {
+            "kind": "Var",
+            "name": "localizedDescription",
+            "printedName": "localizedDescription",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7NextGen10MovieErrorO20localizedDescriptionSSvp",
+            "mangledName": "$s7NextGen10MovieErrorO20localizedDescriptionSSvp",
+            "moduleName": "NextGen",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7NextGen10MovieErrorO20localizedDescriptionSSvg",
+                "mangledName": "$s7NextGen10MovieErrorO20localizedDescriptionSSvg",
+                "moduleName": "NextGen",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "errorUserInfo",
+            "printedName": "errorUserInfo",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7NextGen10MovieErrorO13errorUserInfoSDySSypGvp",
+            "mangledName": "$s7NextGen10MovieErrorO13errorUserInfoSDySSypGvp",
+            "moduleName": "NextGen",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7NextGen10MovieErrorO13errorUserInfoSDySSypGvg",
+                "mangledName": "$s7NextGen10MovieErrorO13errorUserInfoSDySSypGvg",
+                "moduleName": "NextGen",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MovieError",
+                "printedName": "NextGen.MovieError",
+                "usr": "s:7NextGen10MovieErrorO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MovieError",
+                "printedName": "NextGen.MovieError",
+                "usr": "s:7NextGen10MovieErrorO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7NextGen10MovieErrorO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s7NextGen10MovieErrorO2eeoiySbAC_ACtFZ",
+            "moduleName": "NextGen",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7NextGen10MovieErrorO9hashValueSivp",
+            "mangledName": "$s7NextGen10MovieErrorO9hashValueSivp",
+            "moduleName": "NextGen",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7NextGen10MovieErrorO9hashValueSivg",
+                "mangledName": "$s7NextGen10MovieErrorO9hashValueSivg",
+                "moduleName": "NextGen",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7NextGen10MovieErrorO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s7NextGen10MovieErrorO4hash4intoys6HasherVz_tF",
+            "moduleName": "NextGen",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:7NextGen10MovieErrorO",
+        "mangledName": "$s7NextGen10MovieErrorO",
+        "moduleName": "NextGen",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomNSError",
+            "printedName": "CustomNSError",
+            "usr": "s:10Foundation13CustomNSErrorP",
+            "mangledName": "$s10Foundation13CustomNSErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Function",
+        "name": "loadURLAndDecode",
+        "printedName": "loadURLAndDecode(url:apiKey:params:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "GenericTypeParam",
+            "printedName": "τ_0_0"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "URL",
+            "printedName": "Foundation.URL",
+            "usr": "s:10Foundation3URLV"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "[Swift.String : Swift.String]?",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "hasDefaultArg": true,
+            "usr": "s:Sq"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:7NextGen16loadURLAndDecode3url6apiKey6paramsx10Foundation3URLV_SSSDyS2SGSgtYaKSeRzlF",
+        "mangledName": "$s7NextGen16loadURLAndDecode3url6apiKey6paramsx10Foundation3URLV_SSSDyS2SGSgtYaKSeRzlF",
+        "moduleName": "NextGen",
+        "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable>",
+        "sugared_genericSig": "<D where D : Swift.Decodable>",
+        "intro_iOS": "13.0.0",
+        "declAttributes": [
+          "AccessControl",
+          "Available"
+        ],
+        "throwing": true,
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NextGen",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "NextGen"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/anubhavsingh\/Desktop\/NextGen\/NextGen\/Networking.swift",
+      "kind": "StringLiteral",
+      "offset": 395,
+      "length": 22,
+      "value": "\"Failed to fetch data\""
+    },
+    {
+      "filePath": "\/Users\/anubhavsingh\/Desktop\/NextGen\/NextGen\/Networking.swift",
+      "kind": "StringLiteral",
+      "offset": 456,
+      "length": 18,
+      "value": "\"Invalid endpoint\""
+    },
+    {
+      "filePath": "\/Users\/anubhavsingh\/Desktop\/NextGen\/NextGen\/Networking.swift",
+      "kind": "StringLiteral",
+      "offset": 513,
+      "length": 18,
+      "value": "\"Invalid response\""
+    },
+    {
+      "filePath": "\/Users\/anubhavsingh\/Desktop\/NextGen\/NextGen\/Networking.swift",
+      "kind": "StringLiteral",
+      "offset": 561,
+      "length": 9,
+      "value": "\"No data\""
+    },
+    {
+      "filePath": "\/Users\/anubhavsingh\/Desktop\/NextGen\/NextGen\/Networking.swift",
+      "kind": "StringLiteral",
+      "offset": 612,
+      "length": 23,
+      "value": "\"Failed to decode data\""
+    },
+    {
+      "filePath": "\/Users\/anubhavsingh\/Desktop\/NextGen\/NextGen\/Networking.swift",
+      "kind": "BooleanLiteral",
+      "offset": 998,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/anubhavsingh\/Desktop\/NextGen\/NextGen\/Networking.swift",
+      "kind": "StringLiteral",
+      "offset": 1105,
+      "length": 9,
+      "value": "\"api_key\""
+    },
+    {
+      "filePath": "\/Users\/anubhavsingh\/Desktop\/NextGen\/NextGen\/Networking.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1559,
+      "length": 3,
+      "value": "200"
+    },
+    {
+      "filePath": "\/Users\/anubhavsingh\/Desktop\/NextGen\/NextGen\/Networking.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1565,
+      "length": 3,
+      "value": "300"
+    },
+    {
+      "filePath": "\/Users\/anubhavsingh\/Desktop\/NextGen\/NextGen\/Utils.swift",
+      "kind": "StringLiteral",
+      "offset": 512,
+      "length": 12,
+      "value": "\"yyyy-MM-dd\""
+    }
+  ]
+}

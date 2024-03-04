@@ -1,0 +1,36 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
+// swift-module-flags: -target arm64-apple-ios17.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name NextGen
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Foundation
+@_exported import NextGen
+import Swift
+import SwiftUI
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public enum MovieError : Swift.Error, Foundation.CustomNSError {
+  case apiError
+  case invalidEndpoint
+  case invalidResponse
+  case noData
+  case serializationError
+  public var localizedDescription: Swift.String {
+    get
+  }
+  public var errorUserInfo: [Swift.String : Any] {
+    get
+  }
+  public static func == (a: NextGen.MovieError, b: NextGen.MovieError) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+#if compiler(>=5.3) && $AsyncAwait
+@available(iOS 13.0.0, *)
+public func loadURLAndDecode<D>(url: Foundation.URL, apiKey: Swift.String, params: [Swift.String : Swift.String]? = nil) async throws -> D where D : Swift.Decodable
+#endif
+extension NextGen.MovieError : Swift.Equatable {}
+extension NextGen.MovieError : Swift.Hashable {}

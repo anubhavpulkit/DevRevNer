@@ -1,0 +1,11 @@
+framework module NextGen {
+  umbrella header "NextGen.h"
+  export *
+
+  module * { export * }
+}
+
+module NextGen.Swift {
+  header "NextGen-Swift.h"
+  requires objc
+}
